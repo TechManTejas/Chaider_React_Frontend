@@ -1,0 +1,13 @@
+const [settingNodeColor, setSettingNodeColor] = useState("#28282B");
+const [settingNodePopulationPerColor, setSettingNodePopulationPerColor] = useState("#171717");
+const [settingNodeXVariableColor, setSettingNodeXVariableColor] = useState("#171717");
+const [settingNodeTitleFontColor, setSettingNodeTitleFontColor] = useState("#C7C7C7")
+const [settingNodePopulationPerFontColor, setSettingNodePopulationPerFontColor] = useState("#00E0FE")
+const [settingNodeXVariableFontColor, setSettingNodeXVariableFontColor] = useState("#FEBA00")
+const [settingNodeContentFontColor, setSettingNodeContentFontColor] = useState("#FFFFFF")
+const [settingPrecisionContent, setsettingPrecisionContent] = useState(4)
+const [settingPrecisionPopulation, setsettingPrecisionPopulation] = useState(4)
+const [settingTreeLineColor, setSettingTreeLineColor] = useState("#171717")
+const [settingDistBetTwoSibNodeGroup, setSettingDistBetTwoSibNodeGroup] = useState(2)
+const [settingBackgroundColor, setSettingBackgroundColor] = useState("#000000")
+const [settingZoomIntensity, setSettingZoomIntensity] = useState(1.03)

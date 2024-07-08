@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  app:
+    build: 
+      context: .
+    volumes:
+      - .:/chaider_frontend
+    ports: 
+      - 3000:3000
+    image: chaider_frontend:CHAIDER
+    container_name: chaider_frontend_container
+    command: npm start

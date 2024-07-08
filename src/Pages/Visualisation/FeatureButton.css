@@ -1,0 +1,12 @@
+.featureButton {
+  font-size: 14px;
+  background-color: hsla(0, 0%, 100%, 0.9);
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  opacity:1;
+  transition: opacity 0.5s linear;
+}
